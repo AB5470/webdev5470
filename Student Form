@@ -1,0 +1,97 @@
+<!--A student Form using html and css only -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: antiquewhite; color: rgb(78, 160, 242);">
+  
+    <form action="post" style="text-align: center; margin-top: 3cm;">
+
+      <table style="margin-left: 35%; margin-right: 30%; border: 1px solid; padding: 1cm; border-radius: 1cm; background: white;">
+        <tr><td colspan="2">
+          <h1>STUDENT FORM</h1>
+        </td></tr>
+
+
+        <tr> <td>
+      <label for="name">NAME :</label></td>
+      <td>
+      <input type="text"  id="name" placeholder="eg. AAYUSH"><br><br>
+      </td></tr>
+
+
+      <tr> <td>
+      <label for="class">COURSE :</label></td>
+      <td>
+      <input type="text" id="class" placeholder="eg. B-TECH"><br><br>
+      </td></tr>
+
+
+      <tr> <td> 
+      <label for="branch">BRANCH :</label>
+      </td>
+      <td>
+      <input type="text" id="branch" placeholder="eg. CSE"><br><br>
+    </td></tr>
+
+
+      <tr> <td>
+      <label for="admno.">Adm.NUMBER :</label></td>
+      <td>
+      <input type="text" id="admno." placeholder="eg. 22SCSSE1010720"><br><br>
+    </td></tr>
+
+
+      <tr> <td>
+      <label for="phno.">MOB.NUMBER :</label></td>
+      <td>
+      <input type="number" id="phno." placeholder="eg. 9876543210"><br><br>
+    </td></tr>
+
+
+      <tr> <td>
+      <label for="mail"> E-MAIL :</label></td>
+      <td>
+      <input type="email" id="mail" placeholder="eg. xyz@gmail.com"><br><br>
+    </td></tr>
+
+
+      <tr> <td>
+      <label for="gender">GENDER :</label></td>
+      <td>
+      <input type="radio" id="gender">MALE
+      <input type="radio" id="gender">FEMALE <br><br>
+    </td></tr>
+
+
+      <tr> <td>
+      <label for="lang">LANGUAGE :</label></td> 
+      <td>
+      <input type="checkbox">ENGLISH
+      <input type="checkbox">HINDI <br><br>
+    </td></tr>
+
+
+      <tr> <td>
+      <label for="enrol">ENROLMENT NUMBER :</label></td>
+      <td>
+      <input type="text" id="enrol" placeholder="eg.22131010773"> <br><br>
+    </td></tr>
+
+
+      <tr> <td colspan="2">
+      <button type="submit" style="height: 1cm; width: 7cm; background-color: rgb(15, 241, 79); border-radius: 5px;">SUBMIT</button>
+    </td></tr>
+    
+
+    </table>
+    </form>
+</body>
+</html> 
+
+
