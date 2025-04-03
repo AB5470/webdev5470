@@ -95,3 +95,49 @@
 </html> 
 
 
+
+//A form with some exciting colors and gradient included.
+
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ </head>
+ <body style="background-image: repeating-linear-gradient(rgb(139, 6, 124), rgb(26, 5, 111));display: flex; justify-content: center; align-items: center;">
+
+
+  <div style="height:500; width: 900;background: #ef33c3;;display: flex; justify-content: center; align-items: center;">
+
+
+    <form action="https://www.google.com" method="get" style="background-color: white; align-content: center;">
+
+
+      <table style="height: 300; width: 500;border-radius: 5px; background: #feffff;">
+
+        <tr><td style="color: rgb(117, 209, 246);">
+          <h2 style="text-align: center;">Login To Your Account</h2>
+        </td></tr>
+
+        <tr><td style="display: flex; justify-content: center; align-items: center;">
+          <input type="text" id="username" placeholder="Username" style="height: 30px; width: 250px; border-radius: 5px;background-color: rgb(222, 222, 222);" >
+        </td></tr>
+
+
+        <tr><td style="display: flex; justify-content: center; align-items: center;">
+          <input type="password" id="password" placeholder="Password" style="height: 30px; width: 250px;border-radius: 5px;background-color: rgb(222, 222, 222); ">
+        </td></tr>
+
+        <tr><td style="display: flex; justify-content: center; align-items: center;">
+          <input type="submit" value="Login" style=" height: 30px; width: 250px; border-radius: 5px; background-color: rgb(13, 247, 44);">
+        </td></tr>
+
+
+      </table>
+    </form>
+  </div>
+  
+ </body>
+ </html>
+
